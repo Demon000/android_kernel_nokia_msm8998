@@ -12,6 +12,18 @@ menu "Device Drivers for FIH"
   	help
   	  support fih NB1 project
 
+  config FIG_DRG
+    bool "FIH DRG project"
+    default n
+    help
+      support fih DRG project
+
+  config FIG_PL2
+    bool "FIH PL2 project"
+    default n
+    help
+      support fih PL2 project
+
   config FIH_APR
            bool "fih apr"
            default n
