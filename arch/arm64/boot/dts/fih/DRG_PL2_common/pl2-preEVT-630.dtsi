@@ -1,0 +1,54 @@
+/* PL2 preEVT SDM630 */
+
+/* MemMap parts */
+#include "memmap-evb.dtsi"
+
+/* Common DT Info */
+#include "common_info_sdm_v4.dtsi"
+
+/* SYSTEM parts */
+#include "system-preEVT-630.dtsi"
+
+/* External LDO control */
+#include "fixed-regulator-EVT-v1.dtsi"
+
+/* Keypad parts */
+#include "keypad.dtsi"
+
+/* PMIC parts */
+
+/* GPIO parts */
+
+/* Peripheral */
+
+/* Charging */
+#include "charger-evt1.dtsi"
+
+/* Audio */
+
+/* Camera */
+#include "camera-pl2-evt.dtsi"
+
+/* Haptic */
+#include "haptics.dtsi"
+
+/* SD */
+#include "sd-evb.dtsi"
+
+/* Fingerprint */
+#include "fingerprint_elan.dtsi"
+#include "fingerprint-gf3208-evt.dtsi"
+
+/* Sensor */
+#include "hallsensor-fih.dtsi"
+
+/* Touch */
+#include "touch-focaltech8716.dtsi"
+#include "goodix-gt1x-pl2.dtsi"
+
+/* LCM */
+#include "dsi-panel-fih-ft8716-1080p-video-pl2.dtsi"
+#include "dsi-panel-r69338-1080p-video.dtsi"  //ZZDC sunqiupeng add for bringup PL2 2nd panel@20171226
+
+/*Samsung NFC*/
+#include "avl8895_i2c.dtsi"

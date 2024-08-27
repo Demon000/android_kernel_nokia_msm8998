@@ -46,6 +46,18 @@ dtb-$(CONFIG_FIH_A1N) += \
   msm8998-mtp_A1N_MP_CN.dtb \
   msm8998-mtp_A1N_MP_new_ROW.dtb
 
+dtb-$(CONFIG_FIH_DRG) += \
+  sdm636-mtp-drg-DVT1.5.dts \
+  sdm636-mtp-drg-EVT.dts \
+  sdm636-mtp-drg-preEVT.dts
+
+dtb-$(CONFIG_FIH_PL2) += \
+  sdm630-mtp-pl2-dvt.dts \
+  sdm630-mtp-pl2-EVT1.5-CD.dts \
+  sdm630-mtp-pl2-EVT1.5.dts \
+  sdm630-mtp-pl2-preEVT.dts
+
+
 always          := $(dtb-y)
 subdir-y        := $(dts-dirs)
 clean-files := *.dtb
